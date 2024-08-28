@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Posições</h1>
+
+    <p>Existem cinco valores de posição diferente</p>
+    
+    <hr>
+
+    <h2>Posição Estática</h2>
+    <p>Um elemento com <strong>positon:static</strong> não está posicionado de nenhuma maneira especial, ele está sempre posicionado de acordo com o fluxo da página.</p>
+    <p>Na posição static os elementos não são afetados pelas propriedades: top, left, right e bottom.</p>
+    <div id="static"> Position Static </div>
+    
+    <hr>
+
+    <h2>Posição Relativa</h2>
+    <p>Um elemento com <strong>positon:relative</strong> é posicionando em relação à sua posição normal.</p>
+    <p>Nessa posição os elementos são afetados pelas propriedades: top, left, right e bottom.</p>
+    <p>O conteúdo não vai se ajustar para se encaixar no espaço deixado pelo elemento.</p>
+    <div id="relative">Positon Relative</div>
+
+    <hr>
+
+    <h2>Posição Fixa</h2>
+    <p>O elemento é posicionado em relação a viewport, ou seja, ele vai permanecer no mesmo lugar da página.</p>
+    <div id="fixed">Position Fixed</div>
+
+    <hr>
+
+    <h2>Posição Absoluta</h2>
+    <p>O elemento é posicionado com relação ao seu acenstral mais próximo. Lembrando que o ancestral precisa ter uma posição definida.</p>
+    
+    <div id="ancestral">
+        <div id="absolute">Position Absolute</div>
+    </div>
+    
+    <hr>
+
+    <h2>Posição Sticky</h2>
+    <div id="sticky">Position Sticky</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#conteinerFlex {
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: row;
+    justify-content: space-evenly ; /* center */
+    align-items: center;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+#conteinerFlex div {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin: 5px;
+/*  text-align: center;
+    line-height: 50px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

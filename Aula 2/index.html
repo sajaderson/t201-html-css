@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando com Links</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      <a id="linkH1" href="">Página Principal</a>
+    </h1>
+
+    <h2>URLs Absolutas</h2>
+    <p>URL Absoluto (um endereço da Web Completo)</p>
+
+    <a class="linkAbsolut" target="_blank" href="https://www.google.com/"
+      >Google</a
+    >
+    <a class="linkAbsolut" target="_blank" href="https://www.youtube.com"
+      >Youtube</a
+    >
+
+    <h2>URLs Relativas</h2>
+    <p>URL Relativa é um link para uma página dentro do mesmo site.</p>
+
+    <a class="linkRelative" href="pagina1.html">Página 1</a>
+    <a class="linkRelative" href="pagina2.html">Página 2</a>
+
+
+    <h2>Conhecendo as listas</h2>
+
+    <h3>Lista Ordenada</h3>
+
+    <ol type="1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h3>Lista não Ordenada</h3>
+
+    <ul type="square"> <!-- square, circle -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Iserindo Midias (Vídeos e Músicas)</h2>
+
+    <h3>Vídeos</h3>
+
+    <h4>Vídeos Internos</h4>
+
+    <video controls src="assets/vídeos/Imagine_Dragons_x_J.I.D_-_Enemy_from_the_series_Arcane_League_of_Legends.mp4"></video>
+
+    <h4>Vídeos Externos</h4>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S6in4zJgRJQ?si=DOMSFB2JchQHjM2Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h3>Músicas</h3>
+
+    <audio controls src="assets/músicas/Imagine Dragons x J.I.D - Enemy (from the series Arcane League of Legends) (320 kbps).mp3"></audio>
+
+    <p>
+        <a download="Música da Jinx" href="assets/músicas/Imagine Dragons x J.I.D - Enemy (from the series Arcane League of Legends) (320 kbps).mp3">Download da Música</a>
+    </p>
+
+  </body>
+</html>

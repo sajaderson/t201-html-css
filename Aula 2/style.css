@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+#linkH1 {
+    text-decoration: none;
+    color: black;
+}
+
+.linkAbsolut {
+    text-decoration: none; /* remover linha dos links */
+    background-color: black; /* cor de fundo */
+    color: greenyellow; /* cor da fonte (letra) */
+    display: block; /* block, inline, inline-block */
+    width: 100%; /* definir largura */
+    height: 50px; /* definir altura */
+    line-height: 50px; /* definir altura da linha */
+    text-align: center; /* alinhar texto no centro */
+    /* border-radius: 50px;
+    border: 3px double yellowgreen; */
+    /* margin: 10px 10px 10px 10px; */ /* top->right->bottom->left */
+    /* margin: 10px 10px; */ /* top e botton -> right e left */
+    margin: 10px auto;
+}
+
+.linkRelative {
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.linkAbsolut:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.linkRelative:hover {
+    color: dodgerblue;
+    background-color: white;
+    border: 2px solid dodgerblue;
+}
+
+/* 
+    Abrir comentário
+    SHIFT + ALT + A 
+    ou
+    CTRL + ;
+*/
